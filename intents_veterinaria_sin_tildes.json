@@ -1,0 +1,121 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "que tal",
+                "como estas",
+                "saludos",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches"
+            ],
+            "responses": [
+                "Hola!",
+                "Buenos dias!",
+                "Buenas tardes!",
+                "Buenas noches!",
+                "Como estas ?"
+            ]
+        },
+        {
+            "tag": "nombre",
+            "patterns": [
+                "como es tu nombre",
+                "como te llamas",
+                "quien eres"
+            ],
+            "responses": [
+                "Me llamo VetBot, tu asistente virtual veterinario",
+                "Mi nombre es VetBot, tu asistente virtual veterinario",
+                "Soy VetBot, tu asistente virtual veterinario"
+            ]
+        },
+        {
+            "tag": "cita",
+            "patterns": [
+                "Quiero hacer una cita",
+                "Necesito una cita",
+                "Quisiera agendar una cita",
+                "Como hago una cita"
+            ],
+            "responses": [
+                "Para hacer una cita, por favor llama al 123-456-7890 o visita nuestra tienda ubicada en la calle 38 Avenida Cuba al lado del local Cooperativa USAID.",
+                "Para hacer una cita, visita nuestra tienda ubicada en la calle 38 Avenida Cuba al lado del local Cooperativa USAID o por favor llama al 123-456-7890."
+            ]
+        },
+        {
+            "tag": "horario",
+            "patterns": [
+                "Cual es su horario",
+                "Cuando estan abiertos",
+                "Horarios de atencion"
+            ],
+            "responses": [
+                "Nuestro horario de atencion es de lunes a viernes de 8:00 am a 6:00 pm y sabados de 9:00 am a 2:00 pm."
+            ]
+        },
+        {
+            "tag": "emergencia",
+            "patterns": [
+                "Es una emergencia",
+                "Necesito ayuda urgente",
+                "Mi mascota esta en peligro",
+                "Urgencia veterinaria"
+            ],
+            "responses": [
+                "Para emergencias, por favor dirigete a nuestra clinica inmediatamente o llama al 123-456-7890."
+            ]
+        },
+        {
+            "tag": "consulta",
+            "patterns": [
+                "Mi mascota esta enferma",
+                "Mi perro esta enfermo",
+                "Mi gato esta enfermo",
+                "Consulta veterinaria"
+            ],
+            "responses": [
+                "Lo siento por escuchar eso. Por favor, trae a tu mascota a nuestra clinica para una evaluacion completa."
+            ]
+        },
+        {
+            "tag": "vacunación",
+            "patterns": [
+                "Cuando debo vacunar a mi mascota",
+                "Vacunas para perros",
+                "Vacunas para gatos",
+                "Calendario de vacunacion"
+            ],
+            "responses": [
+                "Es importante vacunar a tu mascota segun el calendario recomendado. Por favor, visita nuestra clinica para obtener el calendario completo y vacunar a tu mascota."
+            ]
+        },
+        {
+            "tag": "alimentación",
+            "patterns": [
+                "Que debe comer mi perro",
+                "Que debe comer mi gato",
+                "Alimentacion adecuada para mascotas"
+            ],
+            "responses": [
+                "La alimentacion adecuada depende de la edad, raza y salud de tu mascota. Te recomendamos una consulta con nuestro veterinario para una dieta personalizada."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adios",
+                "Hasta luego",
+                "Nos vemos"
+            ],
+            "responses": [
+                "Adios, cuidate!",
+                "Hasta luego, que tengas un buen dia!",
+                "Nos vemos pronto!",
+                "Gracias por interactuar con nosotros!"
+            ]
+        }
+    ]
+}
